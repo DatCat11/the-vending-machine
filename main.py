@@ -20,7 +20,7 @@ left = False
 
 def vinvf():
   global day
-  print("The vending machine currently contains " + str(vinv[0]) + " bags of chips, " + str(vinv[1]) + " candy bars, " + str(vinv[2]) + " soda cans, " + str(vinv[3]) + " water bottles, and " + str(vinv[4]) + " juice boxes.")
+  print(f"The vending machine currently contains:\n" + str(vinv[0]) + " bags of chips,\n" + str(vinv[1]) + " candy bars,\n" + str(vinv[2]) + " soda cans,\n" + str(vinv[3]) + " water bottles, and\n" + str(vinv[4]) + " juice boxes.")
   day -= 1
   
 def buy():
@@ -109,7 +109,7 @@ def bal():
     
 def yinvf():
   global day
-  print("You currently have " + str(yinv[0]) + " bags of chips, " + str(yinv[1]) + " candy bars, " + str(yinv[2]) + " soda cans, " + str(yinv[3]) + " water bottles, and " + str(yinv[4]) + " juice boxes.")
+  print("You currently have:\n" + str(yinv[0]) + " bags of chips,\n" + str(yinv[1]) + " candy bars,\n" + str(yinv[2]) + " soda cans,\n" + str(yinv[3]) + " water bottles, and\n" + str(yinv[4]) + " juice boxes.")
   day -= 1
   
 def more():
