@@ -47,7 +47,7 @@ def buy():
   elif choice == 5:
     print("You have selected: juice boxes.")
   else:
-    print("\nThat\'s not a valid option. Please try again and select one of the listed options.")
+    print("\nInvalid option. Please try again and select one of the listed options.")
     return
   allbuy(choice - 1)
   
@@ -174,7 +174,7 @@ def more():
         elif jobinput == 3:
           job = "delivery driver"
         else:
-          print("\nThat\'s not a valid option. Please try again and select one of the listed options.")
+          print("\nInvalid option. Please try again and select one of the listed options.")
           day -= 1
           return
         print("\nYou have submitted an application to be a " + job + ".\nWait until Day " + str(day + 3) + " to see if it gets accepted.")
@@ -214,7 +214,7 @@ def more():
     elif sellans == 5:
       print("You have selected: juice boxes.")
     else:
-      print("\nThat\'s not a valid option. Please try again and select one of the listed options.")
+      print("\nInvalid option. Please try again and select one of the listed options.")
       return
     sellans -= 1
     print("The original price for that item is " + str(price[sellans]) + ". It can be sold for " + str(round(((price[sellans]) * 0.8), 2)) + " dollars.")
@@ -249,7 +249,7 @@ def more():
       print("He declines!")
       print("Looks like you're not getting any money from him today! Try asking again tomorrow.")
   else:
-    print("That\'s not a valid option. Please try again and select one of the listed options.")
+    print("Invalid option. Please try again and select one of the listed options.")
     day -= 1
     
 def leave():
@@ -321,7 +321,7 @@ while left != True:
   elif ans == 6:
     leave()
   else:
-    print("That\'s not a valid option. Please select one of the listed options.")
+    print("Invalid option. Please select one of the listed options.")
     day -= 1
 if left == True:
   print("\nYou walked away from the vending machine. Not to worry, as you can always return.")
